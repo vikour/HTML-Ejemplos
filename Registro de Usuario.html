@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Registro de Usuario</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h1> Registro del Gulag</h1>
+            <p> Introduzca los datos del usuario: </p>
+            <form name="input" method="post"> Nombre: <input type="text" name="userName"></form>
+            <form name="input" method="post"> <br/>Apellidos: <input type="text" name="userApellidos"></form>
+            <form name="input" method="post"> <br/>Edad: <input type="text" name="userEdad" size="3" maxlength="3"></form>
+            <form name="input" method="post"> <br/> Sexo:
+            <br/> <input type="radio" name="sex" value="male">Male
+            <br/> <input type="radio" name="sex" value="female">Female
+            <br/> <input type="radio" name="sex" value="helicopteroA">Helic&oacute;ptero de combate Apache
+            </form>
+            <br/><form name="input" method="post"> <br/> Titulaci&oacute;n
+              <br><select name=“Titulacion”>
+              <option value="Ingenieria" selected>Ingenier&iacute;a</option>
+              <option value="CarreraNormal">Carrera Normal</option>
+              <option value="Magisterio">Magisterio</option>
+              </select>
+            </form>
+            <br/><form name="input" method="post"> <br/> Aficiones:
+              <br/> <input type="checkbox" name="aficionesDecentes" value="Suicidio">Suicidio
+              <br/> <input type="checkbox" name="aficionesDecentes" value="Chistes Malos">Chistes Malos
+              <br/> <input type="checkbox" name="aficionesDecentes" value="Chistes Negros">Chistes Negros
+              <br/> <input type="checkbox" name="aficionesDecentes" value="Romper Brazos">Romper Brazos
+            </form>
+            <br/><form name="input" method="post"> <br/> Descripcion Personal:
+            <br/> <textarea name=“ComentarioMuyDescriptivo” rows="10" cols="50">
+I have tried to kill myself twice.
+&iquest;Has leido muchos multiversos? &iquest;No? Que pena creia que habias leido a Lorca o a Machado.
+              </textarea>
+            </form>
+            <form name="input" method="post"> <br/>
+            <br/> <input type="submit" value="Submit"/>
+            </form>
+        </div>
+    </body>
+</html>
